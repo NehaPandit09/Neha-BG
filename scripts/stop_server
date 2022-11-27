@@ -1,1 +1,4 @@
-
+#! /bin/bash
+# stopping appache
+service httpd stop
+rm -rf /var/www/html/*
